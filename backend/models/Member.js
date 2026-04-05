@@ -1,3 +1,4 @@
+//Member schema
 import mongoose from 'mongoose';
 
 const memberSchema = new mongoose.Schema({

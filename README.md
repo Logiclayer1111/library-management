@@ -51,7 +51,7 @@ npm start
 
 ## Contact:
 ```link
-https://my-portfolio-lovat-six-79.vercel.app/
+https://my-portfolio-antoni-six-79.vercel.app/
 ```
 
 

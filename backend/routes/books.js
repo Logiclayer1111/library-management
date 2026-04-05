@@ -3,7 +3,7 @@ import Book from '../models/Book.js';
 
 const router = express.Router();
 
-// Get all books
+// Get all books.
 router.get('/', async (req, res) => {
   try {
     const books = await Book.find();
@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Add a new book
+// Add a new book.
 router.post('/', async (req, res) => {
   const book = new Book(req.body);
   try {
@@ -24,7 +24,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-// Delete a book
+// Delete a book.
 router.delete('/:id', async (req, res) => {
   try {
     await Book.findByIdAndDelete(req.params.id);
